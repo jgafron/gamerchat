@@ -1,9 +1,12 @@
+
+
 .login-container {
     width: 300px;
     margin: auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
+    background-color: #494646fb;
   }
   
   .form-group {
@@ -17,10 +20,11 @@
   
   input[type="text"],
   input[type="password"] {
-    width: 100%;
-    padding: 8px;
+    width: 90%;
+    padding: 2%;
     border: 1px solid #ccc;
     border-radius: 4px;
+    height: 50%;
   }
   
   button[type="submit"] {
@@ -37,3 +41,22 @@
     background-color: #0056b3;
   }
   
+body {
+  background-image: url('../images/gamechatlogin.jpg');
+  background-size: 100% auto;
+  background-position: center;
+
+}
+
+.username-input{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #d532f1;
+}
+  
+.logo {
+  width: 400px;
+  height: auto;
+  margin-bottom: -15% ;
+  margin-top: -5%;
+  margin-left: -15%
+}
